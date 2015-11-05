@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListBooks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.w3school.com vxa_schema.xsd">
+	<Book>
+		<Title>The Distructive Opener Virender Sehwag </Title>
+		<ISBN>123-456-7890</ISBN>
+		<Price currency="USD">30.00</Price>
+		<PublicationDt>2005-10-10</PublicationDt>
+		<CirculationTime>P5Y2M10DT15H</CirculationTime>
+		<AuthorInfo>
+			<AuthorName>
+				<FirstName>Sama</FirstName>
+				<MidName>J.</MidName>
+				<LastName>Kapil</LastName>
+				
+			</AuthorName>
+			<AuthorBirthDate>1982-02-02</AuthorBirthDate>
+			<AuthorEducation>BA</AuthorEducation>
+		</AuthorInfo>
+		<AuthorInfo>
+			<AuthorName>
+				<FirstName>Sama</FirstName>
+				<MidName>J.</MidName>
+				<LastName>Vipul</LastName>
+				
+			</AuthorName>
+			<AuthorBirthDate>1980-02-02</AuthorBirthDate>
+			<AuthorEducation>BA</AuthorEducation>
+		</AuthorInfo>
+		<PublisherInfo>
+			<PublisherName>Sama Publishers</PublisherName>
+			<AddressOfPublisher>
+				<StreetName>112 southpark</StreetName>
+				<SuiteNumber>1234</SuiteNumber>
+				<City>London</City>
+				<ZipCode>75252</ZipCode>
+				<Country>ENGLAND</Country>
+			</AddressOfPublisher>
+		</PublisherInfo>
+	</Book>
+
+	<Book>
+		<Title>Cricket Wall Dravid </Title>
+		<ISBN>123-456-7890</ISBN>
+		<Price currency="USD">40.00</Price>
+		<PublicationDt>2013-08-08</PublicationDt>
+		<CirculationTime>P5Y2M10DT15H</CirculationTime>
+		<AuthorInfo>
+			<AuthorName>
+				<FirstName>Amar</FirstName>
+				<MidName>J.</MidName>
+				<LastName>Vipul</LastName>
+			</AuthorName>
+			<AuthorBirthDate>1987-09-02</AuthorBirthDate>
+			<AuthorEducation>BS</AuthorEducation>
+		</AuthorInfo>
+		<PublisherInfo>
+			<PublisherName>Sama Publishers</PublisherName>
+			<AddressOfPublisher>
+				<StreetName>43 south</StreetName>
+				<SuiteNumber>1234</SuiteNumber>
+				<City>Mumbai</City>
+				<ZipCode>12345</ZipCode>
+				<Country>INDIA</Country>
+			</AddressOfPublisher>
+		</PublisherInfo>
+	</Book>
+	<Book>
+		<Title>Rich Dad Poor</Title>
+		<ISBN>123-456-7890</ISBN>
+		<Price currency="USD">70.00</Price>
+		<PublicationDt>2008-08-08</PublicationDt>
+		<CirculationTime>P5Y2M10DT15H</CirculationTime>
+		<AuthorInfo>
+			<AuthorName>
+				<FirstName>Adarsh</FirstName>
+				<MidName>A.</MidName>
+				<LastName>Shastri</LastName>
+			</AuthorName>
+			<AuthorBirthDate>1983-02-02</AuthorBirthDate>
+			<AuthorEducation>MBA</AuthorEducation>
+		</AuthorInfo>
+		<PublisherInfo>
+			<PublisherName>Baker Publishers</PublisherName>
+			<AddressOfPublisher>
+				<StreetName>12 westros</StreetName>
+				<SuiteNumber>1234</SuiteNumber>
+				<City>London</City>
+				<ZipCode>12345</ZipCode>
+				<Country>ENGLAND</Country>
+			</AddressOfPublisher>
+		</PublisherInfo>
+	</Book>
+	<Book>
+		<Title>Harry Potter</Title>
+		<ISBN>123-456-7890</ISBN>
+		<Price currency="USD">60.00</Price>
+		<PublicationDt>2011-08-08</PublicationDt>
+		<CirculationTime>P5Y2M10DT15H</CirculationTime>
+		<AuthorInfo>
+			<AuthorName>
+				<FirstName>Nagesh</FirstName>
+				<MidName>P.</MidName>
+				<LastName>Kumar</LastName>
+			</AuthorName>
+			<AuthorBirthDate>1980-02-02</AuthorBirthDate>
+			<AuthorEducation>MS</AuthorEducation>
+		</AuthorInfo>
+		<PublisherInfo>
+			<PublisherName>Haritha Publishers</PublisherName>
+			<AddressOfPublisher>
+				<StreetName>34 East </StreetName>
+				<SuiteNumber>1234</SuiteNumber>
+				<City>Dallas</City>
+				<ZipCode>34243</ZipCode>
+				<Country>US</Country>
+			</AddressOfPublisher>
+		</PublisherInfo>
+	</Book>
+	<Book>
+		<Title>Can Love Happen Twice</Title>
+		<ISBN>123-456-7890</ISBN>
+		<Price currency="USD">50.00</Price>
+		<PublicationDt>2012-08-08</PublicationDt>
+		<CirculationTime>P5Y2M10DT15H</CirculationTime>
+		<AuthorInfo>
+			<AuthorName>
+				<FirstName>Dinesh</FirstName>
+				<MidName>K.</MidName>
+				<LastName>Babu</LastName>
+			</AuthorName>
+			<AuthorBirthDate>1984-02-02</AuthorBirthDate>
+			<AuthorEducation>PHD</AuthorEducation>
+		</AuthorInfo>
+		<PublisherInfo>
+			<PublisherName>Kotni Publishers</PublisherName>
+			<AddressOfPublisher>
+				<StreetName>23 Good Street</StreetName>
+				<SuiteNumber>1234</SuiteNumber>
+				<City>Hyderabad</City>
+				<ZipCode>54323</ZipCode>
+				<Country>INDIA</Country>
+			</AddressOfPublisher>
+		</PublisherInfo>
+	</Book>
+
+</ListBooks>
