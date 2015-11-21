@@ -1,9 +1,15 @@
 package com.osrs.login.controller;
 
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.osrs.login.model.RegisterRequest;
+import com.osrs.login.model.RegisterResponse;
+import com.osrs.login.util.DBUtil;
 
 /**
  * @author katva02
@@ -11,8 +17,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * has methods like login,validateSession etc. TODO: Expand the description once all information is available
  */
 @Controller
-@RequestMapping("/login")
-public class LoginController {
+@RequestMapping("/register")
+public class RegistrationController {
 	
 	
 	/**
@@ -22,20 +28,15 @@ public class LoginController {
 	 * This method tries to login to the application and return a 
 	 * sessionKey for the user.
  	 */
-	@RequestMapping(method = RequestMethod.GET)
-	public @ResponseBody String login(){
-		System.out.println("Reached login");
-		return "sessionKey";
+	@RequestMapping(method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
+	public @ResponseBody RegisterRequest register(@RequestBody RegisterRequest registerBean){
+		return registerBean;
 	}
 	
-	/**
-	 * @param key
-	 * @return sessionKey
-	 * Auto login the user based on a key.
-	 */
-	@RequestMapping("/autologin")
-	public String autoLogin(String key){
-		
-		return "";
+	@RequestMapping(method = RequestMethod.GET)
+	public @ResponseBody RegisterResponse registerInit(){
+		return DBUtil.registerUser(null);
 	}
+	
+	
 }
